@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MovieInfoPage">
+  <grid id="27dc6" binding="movieInfoPanel" layout-manager="BorderLayout" hgap="1" vgap="1">
+    <constraints>
+      <xy x="20" y="20" width="571" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-870227"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="3bf" class="javax.swing.JLabel">
+        <constraints border-constraint="North"/>
+        <properties>
+          <font name="Fira Code" size="28" style="1"/>
+          <horizontalAlignment value="0"/>
+          <text value="Movie Title"/>
+        </properties>
+      </component>
+      <grid id="83748" binding="buttonPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+        <margin top="10" left="10" bottom="10" right="10"/>
+        <constraints border-constraint="South"/>
+        <properties>
+          <background color="-16514044"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8766b" class="javax.swing.JButton" binding="backToMovieSelectionButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code"/>
+              <text value="Back to Movie Selection"/>
+            </properties>
+          </component>
+          <component id="dda95" class="javax.swing.JButton" binding="reserveTicketsButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code"/>
+              <text value="Reserve Tickets"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="4965" class="javax.swing.JLabel" binding="movieImage">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="10"/>
+          <icon value="moviecover.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <grid id="90d8f" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="true" same-size-vertically="true" hgap="0" vgap="0">
+        <margin top="0" left="10" bottom="0" right="10"/>
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-1184275"/>
+        </properties>
+        <border type="empty" title="Movie Info:" title-justification="2">
+          <font name="Fira Code" size="14"/>
+        </border>
+        <children>
+          <component id="4bf36" class="javax.swing.JLabel" binding="col1LB">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-5723992"/>
+              <font name="Fira Code" size="16"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="5b417" class="javax.swing.JLabel" binding="col2LB">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="16"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e01dd" class="javax.swing.JLabel" binding="col3LB">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="16"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d8248" class="javax.swing.JLabel" binding="col4LB">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="16"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="698f2" class="javax.swing.JLabel" binding="col5LB">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Fira Code" size="16"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
